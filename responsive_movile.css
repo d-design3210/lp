@@ -77,9 +77,9 @@
     margin: 0 auto;
   }
 
-  .problem-list{
+ul.problem-list{
     background: url(monndia_03.png)no-repeat center bottom ;
-    height: 430px;
+    height: 400px;
     font-size: 12px;
   }
   .problem-list :first-child{
