@@ -1,0 +1,668 @@
+@charset "utf-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: black;
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  margin: 0 auto;
+}
+
+.wrap{
+  width: 100%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  margin: 0 auto;
+}
+
+.head{
+  width: 70%;
+  margin: 0 auto;
+}
+.head-left {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.head-left img{
+  width: 200px;
+}
+
+.head-right{
+  float: right;
+  margin: -50px 20px 0 0;
+}
+
+.head-right a{
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.head-right a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+.head-right a.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+.head-right a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+.fv-image img{
+  width: 100%;
+  position: absolute;
+}
+
+.fv-messe{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fv-messe img{
+  position: relative;
+  padding: 55px 33px 0 0;
+  width: 70%;
+}
+
+.canpean-btn{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.canpean-btn{
+  width: 100%;
+}
+
+.canpean-btn img{
+  width: 60%;
+}
+
+.canpean-btn a.text{
+  font-size: 50px;
+  border: solid 2px #B3B3B3;
+  color: #B3B3B3;
+  width: 50%;
+}
+
+.canpean-btn a.text:hover{
+  color: #000;
+  border: solid 2px #000;
+}
+
+.melit{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 107px;
+  margin-top: 107px;
+}
+
+.melit-wrap{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 30px;
+}
+
+.melit-contents{
+  text-align: center;
+  background-color: #E6E6E6;
+  width: 30%;
+  margin: 0 auto;
+  border: solid 1px #B3B3B3;
+  padding-bottom: 45px;
+  
+}
+
+.melit-contents h2{
+  padding-top: 53px;
+  font-size: 20px;
+}
+
+.melit-contents img{
+  padding-top: 45px;
+}
+
+.melit-contents p{
+  font-weight: bold;
+} 
+.melit-contents p.melit1{
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.melit-contents p.melit2{
+font-size: 20px;
+padding-top: 20px;
+}
+
+.melit-contents p.melit3{
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.problem{
+  background: repeating-linear-gradient(
+-45deg
+, #eee, #eee 2px, #fff 4px);
+width: 100%;
+margin: 0 auto;
+}
+
+.problem-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.problem-list{
+  background: url(monndai_01.png)no-repeat center bottom ;
+  height: 553px;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 auto;
+}
+
+
+
+.problem-list :first-child{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.problem-list :nth-child(2){
+  padding-top: 10px;
+}
+
+.problem-list :nth-child(3){
+  text-align: right;
+  padding-top: -70px;
+  position: relative;
+}
+
+
+.problem-list :nth-child(4){
+  padding-top: 200px;
+}
+
+
+.problem-list :nth-child(5){
+  text-align: right;
+}
+
+.rationale{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  line-height: 70px;
+  background: repeating-linear-gradient(
+    -45deg
+    , #eee, #eee 2px, #fff 4px);
+}
+
+.rationale-wrap{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.rationale-head{
+  text-align: center;
+  font-size: 53px;
+}
+
+.rationale-head h2{
+  font-size: 45px;
+}
+
+.rationale-contents{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rationale-contents-head{
+  font-size:  60px;
+  text-align: center;
+  padding: 25px 0 25px 0;
+  line-height: 120px;
+}
+
+
+.rationale-contents-messe ul{
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 27px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.rationale-contents-messe ul.show{
+  opacity: 1;
+}
+
+.rationale-contents-messe li{
+  margin: 0 auto;
+  padding-bottom: 22px;
+  width: 100%;
+  text-align: center;
+}
+
+.canpean-btn2{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 22px;
+  margin-bottom:  50px;
+}
+
+.canpean-btn2{
+  width: 100%;
+}
+
+.canpean-btn2 img{
+  width: 60%;
+}
+
+.canpean-btn2 a.text{
+  font-size: 50px;
+  border: solid 2px #B3B3B3;
+  color: #B3B3B3;
+}
+
+.canpean-btn2 a.text:hover{
+  color: #000;
+  border: solid 2px #000;
+}
+
+.sample{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.sample-wrap{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.sample-container{
+  display: flex;
+  justify-content: space-between
+}
+
+.sample-contents{
+  text-align: center;
+  line-height: 25px;
+  width: 30%;
+  font-size: 21px;
+  margin: 0 auto;
+  text-decoration-line: underline;
+}
+
+.sample-contents a{
+  color: blue;
+}
+
+.sample-contents img{
+  width: 100%;
+}
+
+.flow{
+  width: 100%;
+}
+
+.flow-wrap{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flow-wrap h1{
+  margin-bottom: 35px;
+  font-size: 50px;
+}
+
+.flow-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flow-contents{
+  width: 100%;
+
+}
+
+.flow-contents img{
+  width: 100%;
+}
+
+.flow-contents li{
+  padding-bottom: 36px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.flow-contents li.show{
+  opacity: 1;
+  transform: none;
+}
+
+
+.flow-contents li:nth-child(odd){
+  transform: translateX(-30px);
+  opacity: 0;
+  transition: 1s;
+}
+
+.flow-contents li:nth-child(even){
+  transform: translateX(30px);
+  opacity: 0;
+  transition: 1s;
+}
+.flow-contents li:nth-child(odd).show{
+  opacity: 1;
+  transform: none;
+}
+
+.flow-contents li:nth-child(even).show{
+  opacity: 1;
+  transform: none;
+}
+
+
+
+
+.price{
+  width: 100%;
+}
+
+.price-wrap{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.price-details{
+  padding-bottom: 50px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.price-details-head h1{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.price-details-head p{
+  font-size: 14px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+
+.price-details-contents{
+  background-color: #F2F2F2;
+  display: flex;
+  width:40%;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.price-details-contents-price{
+ padding-right: 20px;
+}
+
+.price-details-attention{
+  font-size: 12px;
+}
+
+.price-exaple{
+  width: 100%;
+}
+
+.price-example-head{
+  width: 75%;
+  font-size: 30px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.price-example-figure{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.price-example-figure img{
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.price-option{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.price-option-head{
+  font-size: 30px;
+}
+
+table{
+  border: solid 1px black;
+  width: 100%;
+    table-layout: auto;
+    font-weight: bold;
+}
+
+table h2{
+  font-size: 20px;
+  text-align: left;
+}
+
+table p{
+  font-size: 12px;
+  text-align: left;
+}
+
+th{
+  border: solid 1px black;
+}
+tr{
+  border: solid 1px black;
+  vertical-align: middle;
+}
+
+td{
+  border: solid 1px black;
+  text-align: center;
+}
+
+.messeage{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.messeage-wrap{
+  width: 70%;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.messeage-text{
+  width: 100%;
+  background: repeating-linear-gradient(
+    -45deg
+    , #eee, #eee 2px, #fff 4px);
+    margin: 0 auto;
+    background-color: pink
+}
+
+.messeage-text p:first-child{
+  font-size:15px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.messeage-text p:nth-child(2){
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+}
+
+.footer-head{
+  text-align: center;
+}
+
+
+.footer-item a{
+  font-size: 50px;
+  color: #B3B3B3;
+}
+
+.footer-item a:hover{
+  font-size: 50px;
+  color: black;
+}
+
+.footer-logo{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img{
+  width: 200px;
+}
+

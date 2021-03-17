@@ -1,0 +1,269 @@
+@media(max-width: 1000px){
+  .canpean-btn{
+    padding-top: 100px;
+  }
+
+  .melit-wrap{
+    width: 80%;
+  }
+
+  .melit-contents{
+    padding-bottom: 5px;
+    width: 30%;
+  }
+
+  .melit-contents h2{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .melit-contents img{
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .melit-contents img.responsive{
+    margin-top: 10px;
+  }
+
+  .melit-contents p.melit1{
+    font-size: 10px;
+  }
+
+  .melit-contents p.melit2{
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .melit-contents p.melit3{
+    font-size: 10px;
+  }
+
+  .problem-container{
+    width: 70%;
+  }
+
+  .problem-list{
+    font-size: 15px;
+    background: url(monndai_02.png)no-repeat 
+  }
+
+  .problem-list :first-child{
+    padding-top: 10px;
+  }
+  
+  .problem-list :nth-child(2){
+    padding-top: 5px;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .problem-list :nth-child(3){
+    padding-top: -90px;
+  }
+  
+  
+  .problem-list :nth-child(4){
+    padding-top: 150px;
+  }
+
+  .rationale{
+    padding-top: 1px;
+  }
+
+  .rationale-head{
+    font-size: 40px;
+  }
+
+  .rationale-head h2{
+    font-size: 30px;
+  }
+
+  .rationale-contents-head{
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  .rationale-contents-messe img{
+    width: 100%;
+  }
+
+  .rationale-contents-messe li{
+    font-size: 15px;
+  }
+
+  .flow-wrap h1{
+    font-size: 30px;
+  }
+
+  .canpean-btn a.text{
+    font-size: 30px;
+  }
+  .canpean-btn2 a.text{
+    font-size: 30px;
+  }
+
+  .sample h1{
+    font-size: 20px;
+  }
+
+  .price-details-head h1{
+    font-size: 20px;
+  }
+
+  .price-example-head h1{
+    font-size: 20px;
+  }
+
+  .price-details-contents{
+    width: 50%;
+  }
+
+  .price-details-head p{
+    font-size: 12px;
+  }
+
+  .price-option-head h1{
+  font-size: 20px;
+  }
+
+  table h2{
+    font-size: 15px;
+  }
+
+  table p{
+    font-size: 10px;
+  }
+
+  td{
+    font-size: 10px;
+  }
+
+
+
+}
+
+@media(max-width: 1400px){
+  .canpean-btn{
+    padding-top: 200px;
+  }
+
+  .melit-wrap{
+    width: 80%;
+  }
+
+  .melit-contents{
+    padding-bottom: 5px;
+    width: 30%;
+  }
+
+  .melit-contents h2{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .melit-contents img{
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .melit-contents img.responsive{
+    margin-top: 10px;
+  }
+
+  .melit-contents p.melit1{
+    font-size: 10px;
+  }
+
+  .melit-contents p.melit2{
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .melit-contents p.melit3{
+    font-size: 10px;
+  }
+
+  .problem-container{
+    width: 70%;
+  }
+
+  .problem-list{
+    background: url(monndai_01.png)no-repeat 
+  }
+
+
+
+  .rationale{
+    padding-top: 1px;
+  }
+
+  .rationale-head{
+    font-size: 40px;
+  }
+
+  .rationale-head h2{
+    font-size: 30px;
+  }
+
+  .rationale-contents-head{
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  .rationale-contents-messe img{
+    width: 100%;
+  }
+
+  .rationale-contents-messe li{
+    font-size: 15px;
+  }
+
+  .flow-wrap h1{
+    font-size: 30px;
+  }
+
+  .canpean-btn a.text{
+    font-size: 30px;
+  }
+  .canpean-btn2 a.text{
+    font-size: 30px;
+  }
+
+  .sample h1{
+    font-size: 20px;
+  }
+
+  .price-details-head h1{
+    font-size: 20px;
+  }
+
+  .price-example-head h1{
+    font-size: 20px;
+  }
+
+  .price-details-contents{
+    width: 50%;
+  }
+
+  .price-details-head p{
+    font-size: 12px;
+  }
+
+  .price-option-head h1{
+  font-size: 20px;
+  }
+
+  table h2{
+    font-size: 15px;
+  }
+
+  table p{
+    font-size: 10px;
+  }
+
+  td{
+    font-size: 10px;
+  }
+
+
+
+}

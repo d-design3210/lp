@@ -1,0 +1,213 @@
+@media(max-width: 400px){
+
+  .head{
+    width: 60%;
+  }
+
+  .head-left img{
+    width: 100px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .head-right{
+    opacity: 0;
+  }
+
+  .fv-messe img{
+    padding: 20px 10px 0 0;
+  }
+
+  .canpean-btn{
+    padding-top: 50px;
+  }
+
+  .canpean-btn a.text{
+    font-size: 20px;
+  }
+
+  .melit{
+    margin-top: 30px;
+  }
+
+  .melit-wrap{
+    display: block;
+    width: 100%;
+  }
+
+  .melit-contents{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .melit-contents img{
+    width: 20%;
+    padding-top: 20px;
+  }
+
+  
+  .melit-contents h2{
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  
+  .melit-contents p{
+    font-weight: bold;
+  } 
+  .melit-contents p.melit1{
+    font-weight: bold;
+    padding-top: 12px;
+  }
+  
+  .melit-contents p.melit2{
+  font-size: 12px;
+  padding-top: 20px;
+  }
+  
+  .melit-contents p.melit3{
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  .melit-contents img.responsive{
+    margin-top: 20px;
+  }
+
+  .problem-container{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .problem-list{
+    background: url(monndia_03.png)no-repeat center bottom ;
+    height: 430px;
+    font-size: 12px;
+  }
+  .problem-list :first-child{
+    text-align: center;
+    padding-top: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+  }
+  
+  .problem-list :nth-child(2){
+    text-align: center;
+    border-bottom: 1px solid #000;
+  }
+  
+  .problem-list :nth-child(3){
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+  }
+  
+  
+  .problem-list :nth-child(4){
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+  }
+  
+  
+  .problem-list :nth-child(5){
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+  }
+
+  .rationale-head{
+    font-size: 20px;
+  }
+
+  .rationale-head h2{
+    font-size: 18px;
+  }
+
+  .rationale-contents-head{
+    font-size:  22px;
+  }  
+
+.rationale-contents-messe ul{
+  width: 90%;
+  }
+
+  .rationale-contents-messe p{
+    font-size: 12px;
+  }
+
+  
+  .canpean-btn2 a.text{
+    font-size: 20px;
+  }
+
+  .flow-wrap{
+    width: 100%;
+  }
+
+  .flow-wrap h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .flow-contents li{
+    padding-bottom: 10px;
+  }
+
+
+  .price-details-head h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  
+  .price-details-contents{
+    width:100%;
+    font-size: 12px;
+  }
+
+  .price-details-attention{
+    font-size: 10px;
+  }
+
+  .price-example-head{
+    width: 75%;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .price-example-figure{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .price-example-figure img{
+    padding-bottom: 25px;
+  }
+  
+  .price-option{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+
+  table h2{
+    font-size: 12px;
+    text-align: left;
+  }
+
+  table p{
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .messeage-wrap{
+    width: 80%;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+
+
+
+
+}
